@@ -78,10 +78,8 @@ body:before {
     transform: scale(1);
     width: 100vw;
     z-index: 0;
-    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cstyle%3E%20path%20%7B%20fill%3A%20none%3B%20stroke-width%3A%203.01px%3B%20stroke%3A%20rgba(255,218,163,0.11)%3B%20vector-effect%3A%20non-scaling-stroke%3B%20%7D%20%3C%2Fstyle%3E%20%3Cpath%20d%3D%22M0%2C448c128%2C0%2C128-128%2C256-128s128%2C128%2C256%2C128%22%20%2F%3E%20%3Cpath%20d%3D%22M0%2C192c128%2C0%2C128-128%2C256-128s128%2C128%2C256%2C128%22%20%2F%3E%3C%2Fsvg%3E'), linear-gradient(45deg, #4d4f51 15%, #018141 85%);
-    background-size: 487px, auto;
+    background-color: black;
     background-position: center, 0% 0%;
-    background-repeat: repeat, repeat;
 }
 
 body:after {
@@ -665,7 +663,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 
 #buttons01 .button:hover {
     border-color: #FFFFFF !important;
-    color: #FFFFFF !important;
+    color: #00ff37 !important;
 }
 
 #buttons01 .button:hover svg {
